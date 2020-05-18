@@ -41,22 +41,22 @@ function createText (elem) {
         resetall();
 	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
 	stop();
-	sound.play();
+	sounds[0].play();
     } else if (elem.src.match("bub")) {
         resetall();
 	b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
 	stop();
-	soundd.play();
+	sounds[1].play();
     } else if (elem.src.match("blu")) {
         resetall();
 	c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
 	stop();
-	sounddd.play();
+	sounds[2].play();
     } else if (elem.src.match("y")) {
 	resetall();
 	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
 	stop();
-	soundddd.play();
+	sounds[3].play();
     }
 }
 
