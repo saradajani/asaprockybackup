@@ -30,6 +30,7 @@ function spin(elem) {
 	meh.classList.add("upp");
 	ehh.classList.add("up");
 }
+
 function changeMe() {
 	boyy.classList.add("hide");
 	boy.classList.remove("hide");
@@ -38,24 +39,24 @@ function changeMe() {
 function createText (elem) {
     if (elem.src.match("uzi")) {
         resetall();
-		a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
-		stop();
-		sound.play();
+	a.innerHTML = "A$AP Mob - RAF ft. A$AP Rocky, Playboi Carti, Quavo, Lil Uzi Vert, Frank Ocean";
+	stop();
+	sound.play();
     } else if (elem.src.match("bub")) {
         resetall();
-		b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
-		stop();
-		soundd.play();
+	b.innerHTML = "A$AP Mob - Yamborghini High (Audio) ft. Juicy J ";
+	stop();
+	soundd.play();
     } else if (elem.src.match("blu")) {
         resetall();
-		c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
-		stop();
-		sounddd.play();
+	c.innerHTML = "Chief Keef - Blowin Minds ft. A$AP Rocky, Playboi Carti & ASAP Nast";
+	stop();
+	sounddd.play();
     } else if (elem.src.match("y")) {
-		resetall();
-		d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
-		stop();
-		soundddd.play();
+	resetall();
+	d.innerHTML = "A$AP Rocky - Canal St ft. Bones";
+	stop();
+	soundddd.play();
     }
 }
 
