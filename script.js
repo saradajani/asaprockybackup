@@ -19,7 +19,7 @@ var bub = document.getElementById('bub');
 var blu = document.getElementById('blu'); 
 var y = document.getElementById('y');
 
-sounds = [sound, soundd, sounddd, soundddd];
+sounds = [sound, soundd, sounddd, soundddd]
 
 
 function spin(elem) {
